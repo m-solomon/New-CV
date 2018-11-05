@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.1.3, 30 April 2017) written by LianTze Lim (liantze@gmail.com). Now compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you need to pass whatever options to xcolor
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons 
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% 
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font 
+%% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{import}
+
+\graphicspath{{C:/Users/TripleM/Documents/Mohamed's/Studies/KFUPM/Master Applecation/Documents/Photos} }
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{MidnightBlue}
+\colorlet{accent}{RoyalBlue}
+\colorlet{emphasis}{Black}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Mohamed M. Solomon}
+\tagline{Master Student in Computational Engineering}
+
+%\includegraphics{Mohamed Soliman}
+%\photo{2.8cm}{Globe_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{m.monem1259@gmail.com}
+  \phone{+49-163 2181 308}
+  %\mailaddress{Haagstr. 17, Erlangen, 91054}
+  \location{Erlangen, Germany}
+  \homepage{www.homepage.com/}
+  \linkedin{linkedin.com/in/mohamed-solomon/}
+  %\twitter{@Triple22M}
+  \github{github.com/m-solomon}
+  %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+%   \orcid{orcid.org/0000-0000-0000-0000}
+}
+
+%% Make the header extend all the way to the right, if you want. 
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Internship}
+
+\cvevent{BMS Engineer}{Saudi Binladin Group}
+{June 2016 -- Sept. 2016}{Makkah Royal Clock Tower, KSA}
+I worked as a building management system engineer at the Makkah Royal Clock Tower (the third tallest building in the world) for three months. My responsibilities included monitoring and reporting alarms in HVAC equipment in service floors, and calibrating several types of HVAC Machines. During the internship, I excelled at using the building management system software, Desigo Insight. And at the end of the internship, the company and my colleagues praised my work ethic.
+
+
+
+
+\cvsection{Undergraduate
+Research}
+
+\cvevent{Research Assistant}{King Fahd University of Petroleum and Minerals}
+{Feb. 2017 -- Present}{Dhahran, KSA}
+ I am currently working on a digital image processing research paper that studies the performance of a new image denoising algorithm (Image Denoising via Collaborative Support-Agnostic Recovery) on high resolution images. This algorithm shows promising results, however, its performance is  compromised when used on high resolution images due to its heavy computational burden. My research aims to find different ways to reduce this computational burden
+
+
+
+
+\cvsection{Notable Projects}
+
+\cvevent{Autonomous UAV (Ongoing)}{Development of a Fully Automated UAV Security System}
+{Jan. 2017 -- Present}{Dhahran, KSA}
+I am the coordinator of a team developing an autonomous security UAV that chases and traps any intruding UAVs flying over a designated area. This ambitious project requires extremely high technical ability. The idea for the project was proposed by myself after reading several news articles about the use of commercial UAVs to illegally smuggle weapons and drugs into correction facilities.
+
+
+\divider
+
+
+\cvevent{Smart Retirement Home}{Development of indoor localization system for Alzheimer's patients}{Sept. 2016 -- Jan. 2017}{Dhahran, KSA}
+I was part of a project that aimed to implement health and safety features in nursing homes by providing Alzheimer's patients with RFID tags that can be used to localize the patient and to ensure that he/she doesn't wonder around in any safety hazardous areas, all without invading the patient's privacy. This challenging project required excellent planning and organizational skills, and the ability to teach oneself an entirely new subject, namely, Radio Frequency Identification.
+
+
+
+
+%\cvevent{Project 2}{Funding agency/institution}{Project duration}{}
+%A short abstract would also work.
+
+
+
+\clearpage
+\cvsection[page2sidebar]{Relevant Experience}
+
+\cvevent{Program Coordinator}{IEEE KFUPM Student Branch}{Sept. 2016 -- Present}{Dhahran, KSA}
+\begin{itemize}
+\item I Organized a seminars titled  about the Internet of Things and a workshop about Lego Robotics.
+\item I was a member of the Program Committee organizing the Students and Young Professionals Congress in Bahrain May 2017.
+\end{itemize}
+
+\divider
+
+\cvevent{The Quest 2016 }{Unilever}{Nov. 2016}{Jeddah, KSA}
+\begin{itemize}
+\item I was nominated to the second stage of The Quest by Unilever 2016 
+\item I participated in a case competition coordinated by Unilever and my team was one of the top three winning teams
+\end{itemize}
+
+\divider
+
+\cvevent{The Entrepreneurial Emerging Leaders (EEL) Program}{Entrepreneurship Institute at KFUPM}{Feb. 2017 -- May 2017}{Dhahran Techno Valley, KSA}
+\begin{itemize}
+\item I was accepted to attended the EEL program and leaned methodical ways of becoming  a successful entrepreneur
+\end{itemize}
+
+\divider
+
+\cvevent{Professional Photographer}{Freelancer}{Oct. 2016 -- Present}{Dhahran, KSA}
+\begin{itemize}
+\item I am specialized in architectural, portrait, and event photography.
+\item I also have volunteered to photograph many social events at KFUPM
+\end{itemize}
+
+\divider
+
+\cvevent{Teaching Assistant}{KFUPM}{Sept. 2014 -- May 2017}{Dhahran, KSA}
+\begin{itemize}
+\item I was a part time teaching assistant (grader) at mu university for courses in which I had received A+ 
+\end{itemize}
+
+
+
+\cvsection{Volunteer Experience}
+\cvevent{Photographer}{KFUPM Volunteering Day}{Feb. 2016}{Dammam, KSA}
+I was a volunteer photographer during the annual KFUPM Volunteering Day covering the issues about social services 
+
+\divider
+
+\cvevent{Environmental Awareness}{Alnabta Group}{Nov. 2016}{Jeddah, KSA}
+I volunteered with a non-profit organization to teach children about environmental issues.
+
+
+\medskip
+
+
+
+
+%\clearpage
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+
+
+\end{document}
+
