@@ -47,6 +47,7 @@
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{import}
+\usepackage{bibentry}
 
 \graphicspath{{C:/Users/TripleM/Documents/Mohamed's/Studies/KFUPM/Master Applecation/Documents/Photos} }
 
@@ -72,19 +73,20 @@
 
 \begin{document}
 \name{Mohamed M. Solomon}
-\tagline{Master Student in Computational Engineering}
+\tagline{Graduate Student in Computational Engineering}
 
-%\includegraphics{Mohamed Soliman}
-%\photo{2.8cm}{Globe_High}
+%\includegraphics{Mohamed M. Solomon}
+\photo{2.8cm}{IMG_3619-3.JPG}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{m.monem1259@gmail.com}
+  \email{mohamed.m.soliman@fau.de}
   \phone{+49-163 2181 308}
-  %\mailaddress{Haagstr. 17, Erlangen, 91054}
+  \mailaddress{Haagstraße 17, 91054}
   \location{Erlangen, Germany}
-  \homepage{www.homepage.com/}
-  \linkedin{linkedin.com/in/mohamed-solomon/}
+  %\homepage{www.homepage.com/}
+  \printinfo{\faInstagram}{triple22m}
+  \linkedin{linkedin.com/in/mohamed-solomon}
   %\twitter{@Triple22M}
   \github{github.com/m-solomon}
   %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
@@ -100,11 +102,20 @@
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
-\cvsection[page1sidebar]{Internship}
 
-\cvevent{BMS Engineer}{Saudi Binladin Group}
+\cvsection[page1sidebar]{Work Experience}
+
+\cvevent{Programing and Robotics Instructor}{National TalentS Company}
+{July 2017 -- Aug. 2017}{Sabic HQ, KSA}
+Was a leading trainer and a facilitator in a summer program organized by Make Magazine, the first of its kind in Saudi Arabia.
+
+\cvsection{Internship}
+
+\cvevent{Building Management System Engineer}{Saudi Services Co. Ltd.}
 {June 2016 -- Sept. 2016}{Makkah Royal Clock Tower, KSA}
-I worked as a building management system engineer at the Makkah Royal Clock Tower (the third tallest building in the world) for three months. My responsibilities included monitoring and reporting alarms in HVAC equipment in service floors, and calibrating several types of HVAC Machines. During the internship, I excelled at using the building management system software, Desigo Insight. And at the end of the internship, the company and my colleagues praised my work ethic.
+Monitered, reported alarms and calibrated HVAC equipment at the Makkah Royal Clock Tower (the third tallest building in the world)
+
+%I worked as a building management system engineer at the Makkah Royal Clock Tower (the third tallest building in the world) for three months. My responsibilities included monitoring and reporting alarms in HVAC equipment in service floors, and calibrating several types of HVAC Machines. During the internship, I excelled at using the building management system software, Desigo Insight. And at the end of the internship, the company and my colleagues praised my work ethic.
 
 
 
@@ -113,24 +124,34 @@ I worked as a building management system engineer at the Makkah Royal Clock Towe
 Research}
 
 \cvevent{Research Assistant}{King Fahd University of Petroleum and Minerals}
-{Feb. 2017 -- Present}{Dhahran, KSA}
- I am currently working on a digital image processing research paper that studies the performance of a new image denoising algorithm (Image Denoising via Collaborative Support-Agnostic Recovery) on high resolution images. This algorithm shows promising results, however, its performance is  compromised when used on high resolution images due to its heavy computational burden. My research aims to find different ways to reduce this computational burden
+{Feb. 2017 -- May. 2017}{Dhahran, KSA}
+Assisted in a paper studying the performance of a patch-based image denoising algorithm using collaborative support-agnostic recovery.
 
-
-
+%I am currently working on a digital image processing research paper that studies the performance of a new image denoising algorithm (Image Denoising via Collaborative Support-Agnostic Recovery) on high resolution images. This algorithm shows promising results, however, its performance is  compromised when used on high resolution images due to its heavy computational burden. My research aims to find different ways to reduce this computational burden
 
 \cvsection{Notable Projects}
 
-\cvevent{Autonomous UAV (Ongoing)}{Development of a Fully Automated UAV Security System}
-{Jan. 2017 -- Present}{Dhahran, KSA}
-I am the coordinator of a team developing an autonomous security UAV that chases and traps any intruding UAVs flying over a designated area. This ambitious project requires extremely high technical ability. The idea for the project was proposed by myself after reading several news articles about the use of commercial UAVs to illegally smuggle weapons and drugs into correction facilities.
+\cvevent{Autonomous UAV}{Development of a Fully Automated UAV Security System}
+{Jan. 2017 -- Jun. 2017}{Dhahran, KSA}
+Was the coordinator of a team developing an autonomous security UAV that aims detect and potentially take down intruding UAVs, the project required skills in image processing and sensor fusion. 
+
+\cvsection{Publications}
+\cvevent{InterIoT 2017}{3rd EAI International Conference on Interoperability in IoT}
+{Feb. 2018}{Paris, France}
+  \begin{itemize}
+  	\item {Raad M.W., Sheltami T., Soliman M.A., Alrashed M. (2018) An RFID Based Activity of Daily Living for Elderly with Alzheimer’s. In: Ahmed M., Begum S., Fasquel JB. (eds) Internet of Things (IoT) Technologies for HealthCare. HealthyIoT 2017. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 225. Springer, Cham}
+  \end{itemize}
+    
 
 
-\divider
 
 
-\cvevent{Smart Retirement Home}{Development of indoor localization system for Alzheimer's patients}{Sept. 2016 -- Jan. 2017}{Dhahran, KSA}
-I was part of a project that aimed to implement health and safety features in nursing homes by providing Alzheimer's patients with RFID tags that can be used to localize the patient and to ensure that he/she doesn't wonder around in any safety hazardous areas, all without invading the patient's privacy. This challenging project required excellent planning and organizational skills, and the ability to teach oneself an entirely new subject, namely, Radio Frequency Identification.
+
+%\divider
+
+
+%\cvevent{Smart Retirement Home}{Development of indoor localization system for Alzheimer's patients}{Sept. 2016 -- Jan. 2017}{Dhahran, KSA}
+%I was part of a project that aimed to implement health and safety features in nursing homes by providing Alzheimer's patients with RFID tags that can be used to localize the patient and to ensure that he/she doesn't wonder around in any safety hazardous areas, all without invading the patient's privacy. This challenging project required excellent planning and organizational skills, and the ability to teach oneself an entirely new subject, namely, Radio Frequency Identification.
 
 
 
@@ -141,54 +162,64 @@ I was part of a project that aimed to implement health and safety features in nu
 
 
 \clearpage
-\cvsection[page2sidebar]{Relevant Experience}
+\cvsection[page2sidebar]{Relevant Experiences}
 
-\cvevent{Program Coordinator}{IEEE KFUPM Student Branch}{Sept. 2016 -- Present}{Dhahran, KSA}
+\cvevent{Professional Photographer}{Freelancer}{Oct. 2016 -- Present}{Erlangen, Germany}
 \begin{itemize}
-\item I Organized a seminars titled  about the Internet of Things and a workshop about Lego Robotics.
-\item I was a member of the Program Committee organizing the Students and Young Professionals Congress in Bahrain May 2017.
+\item Specialized in architectural, portrait, and event photography.
+\item Also have volunteered to photograph many social events at KFUPM
+\end{itemize}
+
+\divider
+
+\cvevent{Program Coordinator}{IEEE KFUPM Student Branch}{Sept. 2016 -- Jun. 2017}{Dhahran, KSA}
+\begin{itemize}
+\item Organized seminars and workshops about IoT and Robotics.
+\item Was a member of the Program Committee organizing the Students and Young Professionals Congress in Bahrain May 2017.
 \end{itemize}
 
 \divider
 
 \cvevent{The Quest 2016 }{Unilever}{Nov. 2016}{Jeddah, KSA}
 \begin{itemize}
-\item I was nominated to the second stage of The Quest by Unilever 2016 
-\item I participated in a case competition coordinated by Unilever and my team was one of the top three winning teams
+\item Was nominated to the second stage of The Quest by Unilever 2016 
+\item Participated in a case competition coordinated by Unilever and my team was one of the top three winning teams in the competition 
 \end{itemize}
 
 \divider
 
 \cvevent{The Entrepreneurial Emerging Leaders (EEL) Program}{Entrepreneurship Institute at KFUPM}{Feb. 2017 -- May 2017}{Dhahran Techno Valley, KSA}
 \begin{itemize}
-\item I was accepted to attended the EEL program and leaned methodical ways of becoming  a successful entrepreneur
-\end{itemize}
-
-\divider
-
-\cvevent{Professional Photographer}{Freelancer}{Oct. 2016 -- Present}{Dhahran, KSA}
-\begin{itemize}
-\item I am specialized in architectural, portrait, and event photography.
-\item I also have volunteered to photograph many social events at KFUPM
+\item Was accepted to attended the EEL program and learned methodical ways of becoming  a successful entrepreneur
 \end{itemize}
 
 \divider
 
 \cvevent{Teaching Assistant}{KFUPM}{Sept. 2014 -- May 2017}{Dhahran, KSA}
 \begin{itemize}
-\item I was a part time teaching assistant (grader) at mu university for courses in which I had received A+ 
+\item Was a part-time teaching assistant (grader) at my university for courses in which I had received A+ 
 \end{itemize}
 
 
-
-\cvsection{Volunteer Experience}
-\cvevent{Photographer}{KFUPM Volunteering Day}{Feb. 2016}{Dammam, KSA}
-I was a volunteer photographer during the annual KFUPM Volunteering Day covering the issues about social services 
+\cvsection{Referees}
+% \cvref{name}{email}{mailing address}
+\cvref{Assoc. Prof. \ Mohamed A. Deriche}{mderiche@kfupm.edu.sa}{P.O. 1427, KFUPM, Dhahran-31261, KSA}
+Department of Electrical Engineering at KFUPM
+%\hfill 
 
 \divider
 
-\cvevent{Environmental Awareness}{Alnabta Group}{Nov. 2016}{Jeddah, KSA}
-I volunteered with a non-profit organization to teach children about environmental issues.
+\cvref{Dr.\ Mohammed Wasim Raad}{mwraad12@gmail.com}{P.O. 1874, KFUPM, Dhahran-31261, KSA}
+Department of Computer Engineering at KFUPM
+
+%\cvsection{Volunteer Experience}
+%\cvevent{Photographer}{KFUPM Volunteering Day}{Feb. 2016}{Dammam, KSA}
+%I was a volunteer photographer during the annual KFUPM Volunteering Day covering the issues about social services 
+%
+%\divider
+%
+%\cvevent{Environmental Awareness}{Alnabta Group}{Nov. 2016}{Jeddah, KSA}
+%I volunteered with a non-profit organization to teach children about environmental issues.
 
 
 \medskip
