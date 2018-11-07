@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.16)  6 NOV 2018 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.16)  7 NOV 2018 13:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -1421,27 +1421,27 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
 
 {C:/Users/TripleM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./IMG_361
 9-3.JPG>] (page2sidebar.tex)
-Overfull \hbox (1.06999pt too wide) in paragraph at lines 206--206
+Overfull \hbox (1.06999pt too wide) in paragraph at lines 211--211
 [][] []\U/fontawesomeone/bx/n/10 [[][]  
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <9> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 20
-6.
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 21
+1.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 206.
+(Font)              scaled to size 9.0pt on input line 211.
 
-Overfull \hbox (1.5pt too wide) in paragraph at lines 206--206
+Overfull \hbox (1.5pt too wide) in paragraph at lines 211--211
 [][] []\U/fontawesometwo/bx/n/9 R[][]  
  []
 
 
-Overfull \hbox (1.06999pt too wide) in paragraph at lines 212--212
+Overfull \hbox (1.06999pt too wide) in paragraph at lines 217--217
 [][] []\U/fontawesomeone/bx/n/10 [[][]  
  []
 
 
-Overfull \hbox (1.5pt too wide) in paragraph at lines 212--212
+Overfull \hbox (1.5pt too wide) in paragraph at lines 217--217
 [][] []\U/fontawesometwo/bx/n/9 R[][]  
  []
 
@@ -1458,7 +1458,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  24868 strings out of 493305
  503406 string characters out of 3128932
- 938821 words of memory out of 3000000
+ 937821 words of memory out of 3000000
  28001 multiletter control sequences out of 15000+200000
  317202 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1473,7 +1473,7 @@ TripleM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lato/Lato-Bold.pfb
 to-BoldItalic.pfb><C:/Users/TripleM/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lato/Lato-Regular.pfb><C:/Users/TripleM/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (2 pages, 794447 bytes).
+Output written on main.pdf (2 pages, 797068 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
