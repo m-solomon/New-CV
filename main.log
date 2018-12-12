@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.16)  8 NOV 2018 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.16)  11 NOV 2018 13:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -1409,19 +1409,19 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 6.
 LaTeX Font Info:    Try loading font information for OMS+lato-TLF on input line
- 22.
-LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 22.
+ 34.
+LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 34.
 
 
 LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 22.
+(Font)              for symbol `textbullet' on input line 34.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/it' in size <10> not available
-(Font)              Font shape `T1/lato-TLF/b/it' tried instead on input line 2
-7.
+(Font)              Font shape `T1/lato-TLF/b/it' tried instead on input line 3
+9.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
-(Font)              scaled to size 10.0pt on input line 27.
+(Font)              scaled to size 10.0pt on input line 39.
 ) [1
 
 {C:/Users/TripleM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./IMG_361
@@ -1478,13 +1478,7 @@ TripleM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lato/Lato-Bold.pfb
 to-BoldItalic.pfb><C:/Users/TripleM/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lato/Lato-Regular.pfb><C:/Users/TripleM/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (2 pages, 797066 bytes).
-PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-ages, 797066 bytes).
+Output written on main.pdf (2 pages, 796996 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
